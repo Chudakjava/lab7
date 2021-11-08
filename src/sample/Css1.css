@@ -1,0 +1,36 @@
+
+.button {
+
+    -fx-border-color: #121212;
+    -fx-border-width: 2;
+    -fx-border-radius: 5;
+    -fx-background-radius: 0;
+    -fx-background-color: #555555;
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 20pt;
+    -fx-text-fill: #d8d8d8;
+    -fx-background-insets: 0 0 0 0, 0, 1, 2;
+}
+
+.button:pressed{
+    -fx-border-color: #121212;
+    -fx-border-width: 2;
+    -fx-border-radius: 5;
+    -fx-background-radius: 0;
+    -fx-background-color: gold;
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 20pt;
+    -fx-text-fill: black;
+    -fx-background-insets: 0 0 0 0, 0, 1, 2;
+}
+
+.text-field{
+    -fx-background-color: grey ;
+    -fx-border-color: black;
+    -fx-text-fill: gold;
+
+    }
+
+HBox, VBox {
+-fx-background-image: url("image.jpg");
+}
